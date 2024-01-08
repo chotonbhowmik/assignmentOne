@@ -200,17 +200,30 @@ padding: 15px 0 ;
 }
 .offer{
 	display: flex;
-
+	margin-top: 50px;
 }
 .offer img{
 	height: 100%;
 	width: 100%;
 	z-index: 9;
 }
+.left-image{
+	height: 100%;
+}
+.right-image{
+	position: relative;
+	height: 100%;
+
+}
+.offer-image{
+	position: absolute;
+	left: 50%;
+	z-index: 9;
+}
 .background{
 	background: #f00;
 	height: 200px;
-	margin-top: -230px;
+	margin-top: -235px;
 	border-radius: 8px;
 }
 .holiday-sale h6{
