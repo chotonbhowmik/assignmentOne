@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
+body{
+	font-family: 'Inter', sans-serif;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+}
+.banner-section {
+    position: relative;
+    padding: 150px 300px;
+    border-radius: 16px;
+    margin: 50px 100px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("resources/Banner Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}
+
+.banner-section p{
+	
+    color: #FFF;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 400;
+	
+}
+.banner-section h2{
+	color: #FFF;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 72px;
+
+	font-weight: 900;
+	line-height: 95px; 
+	
+}
+.offer-section h2{
+	color: #F00;
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+font-size: 70px;
+
+font-weight: 700;
+
+
+}
+.offer-section p{
+	color: #F00;
+text-align: center;
+
+font-size: 16px;
+padding: 35px 0px 10px 0;
+font-weight: 500;
+
+
+}
+.offer-section h6{
+	color: #070211;
+text-align: center;
+
+font-size: 35px;
+
+font-weight: 700;
+
+
+}
+
+.offer-section img{
+display: block;
+    margin: 0 auto;
+    height: 70%;
+    margin-top: 20px;
+
+}
+.party-section{
+	background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("resources/Vectorrr.png");
+ /* background-image: url("resources/Vectorrr.png"); */
+ background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	padding: 100px 100px;
+	margin: 50px 100px;
+	align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+ .party-left-part h2{
+ 	color: #FFF;
+font-size: 50px;
+font-weight: 900;
+letter-spacing: 7.04px;
+	
+}
+.party-left-part p{
+	color: rgba(255, 255, 255, 0.80);
+font-size: 18px;
+font-weight: 400;
+padding: 20px 0;
+
+}
+.party-left-part button{
+	border: 1px solid #fff;
+	padding: 10px 15px;
+	border-radius: 8px;
+	margin-top: 20px;
+	color: #FFF;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+background-color: transparent;
+
+}
+.info-details{
+	padding: 100px 300px;
+	border-radius: 16px;
+	margin: 50px 100px;
+	background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+	text-align: center;
+
+}
+.info-details span{
+	color: #F00;
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+
+
+}
+.info-details p{
+	color: #070211;
+font-size: 20px;
+font-weight: 600;
+padding: 7px 0;
+}
+.info-details .join-button{
+	background: #F00;
+	border-radius: 5px;
+	color: #FFF;
+font-size: 16px;
+font-weight: 700;
+text-transform: uppercase;
+margin-top: 20px;
+}
+.coming-soon-section{
+display: flex;
+margin: 50px 100px;
+	align-items: center;
+  justify-content: center;
+}
+.coming-soon-left-part h6{
+color: #F00;
+font-size: 18px;
+font-weight: 500;
+}
+.coming-soon-left-part h2{
+	color: #070211;
+font-size: 35px;
+font-weight: 900;
+text-transform: capitalize;
+padding: 15px 0;
+}
+.coming-soon-left-part p{
+	color: rgba(7, 2, 17, 0.60);
+font-size: 16px;
+font-weight: 400;
+
+}
+.coming-soon-middle-part img{
+	border: 10px solid #F00;
+	padding: 10px;
+	border-radius: 50%;
+}
+.coming-soon-right-part{
+	margin-left: 30px;
+}
+.coming-soon-right-part h2{
+	color: #f00;
+font-size: 35px;
+font-weight: 900;
+text-transform: capitalize;
+padding: 15px 0;
+}
+.coming-soon-right-part p{
+	color: rgba(7, 2, 17, 0.60);
+font-size: 16px;
+font-weight: 400;
+padding: 15px 0 ;
+
+}
+.holiday-sale{
+	margin: 70px 100px;
+
+}
+.offer{
+	display: flex;
+
+}
+.offer img{
+	height: 100%;
+	width: 100%;
+	z-index: 9;
+}
+.background{
+	background: #f00;
+	height: 200px;
+	margin-top: -230px;
+	border-radius: 8px;
+}
+.holiday-sale h6{
+	color: #070211;
+font-size: 20px;
+font-weight: 500;
+text-align: center;
+
+}
+.holiday-sale h2{
+	color: #F00;
+text-align: center;
+font-size: 50px;
+font-weight: 900;
+padding: 15px 0;
+
+}
+.holiday-sale span{
+	color: #070211;
+font-size: 50px;
+font-weight: 900;
+padding: 15px 0;
+}
+.holiday-sale p{
+	color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+
+}
+.portfolio{
+	margin: 50px 100px;
+
+}
+.portfolio h6{
+color: #f00;
+font-size: 18px;
+font-weight: 500;
+}
+.portfolio h2{
+color: #070211;
+font-size: 40px;
+font-weight: 900;
+padding: 15px 0;
+}
+.portfolio p{
+color: rgba(7, 2, 17, 0.60);
+font-size: 16px;
+font-weight: 500;
+margin-bottom: 50px;
+
+}
+.image{
+	display: flex;
+}
+.image img{
+	margin: 5px 5px;
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+}
+.newsletter{
+	background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+	margin: 50px 100px;
+	text-align: center;
+	padding: 50px 100px;
+	border-radius: 10px;
+}
+.newsletter h2{
+	padding: 10px;
+	color: #070211;
+font-size: 35px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.newsletter p{
+	color: rgba(7, 2, 17, 0.60);
+font-size: 16px;
+font-weight: 400;
+padding: 10px 0 25px 0;
+}
+.input-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+input[type="email"] {
+  padding: 15px;
+  border-radius: 50px 0 0px 50px;
+  background: #fff;
+  width: 300px;
+  border:  none;
+}
+
+button {
+ background-color: #F00;
+  border-radius: 0 50px 50px 0; 
+  padding: 16px;
+  color: #FFF;
+  cursor: pointer;
+  border: none;
+}
+.footer{
+	background: #000;
+	padding: 50px 100px;
+}
+.top-part{
+	display: flex;
+	color: #fff;
+	justify-content: space-between;
+padding-top: 20px;
+
+}
+.icon-image{
+	display: flex;
+	margin-bottom: 8px;
+}
+.icon-image p{
+	margin-left: 10px;
+}
+.top-right{
+	color: #fff;
+}
+.top-right p{
+	text-align: right;
+	color: #fff;
+	text-decoration: none;
+}
+.top-right a{
+	text-decoration: none;
+}
+.middle-part{
+	display: flex;
+	justify-content: center;
+      align-items: center;
+      padding: 20px 0 ;
+}
+.middle-part img{
+	margin-right: 10px;
+	height: 30px;
+}
